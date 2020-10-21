@@ -1,8 +1,10 @@
 def main():
     while(True):
         print("Carry on?")
-        if(input()=="no"):
+        reply = input()
+        if(reply=="no"):
             break
+
     #write your code below this line
 
 if __name__ == '__main__':
